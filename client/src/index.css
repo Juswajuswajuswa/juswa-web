@@ -1,0 +1,25 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,::after,::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #171717;
+  color: #eee;
+}
+
+.transition-all {
+  transition: transform 0.3s ease; /* Adjust duration and timing function as needed */
+}
+

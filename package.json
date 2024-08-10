@@ -1,0 +1,26 @@
+{
+  "name": "juswa-web",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development node --watch api/app.js",
+      "start": "cross-env NODE_ENV=production node api/app.js",
+      "build": "npm install && npm install --prefix client && npm run build --prefix client"
+    },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.1",
+    "node": "^20.16.0"
+  }
+}
